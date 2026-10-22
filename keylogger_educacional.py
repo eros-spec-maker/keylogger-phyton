@@ -1,9 +1,3 @@
-
----
-
-## 2. `keylogger_educacional.py`
-
-```python
 # keylogger_educacional.py
 #
 # ⚠️ AVISO LEGAL E ÉTICO
@@ -14,9 +8,10 @@
 #
 # Este script NÃO implementa stealth, envio remoto, auto-start nem ofuscação.
 
-from pynput import keyboard
-from datetime import datetime
 import sys
+from datetime import datetime
+
+from pynput import keyboard
 
 LOG_FILE = "keylog.txt"
 
