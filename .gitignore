@@ -10,3 +10,11 @@ env/
 .DS_Store
 Thumbs.db
 *.bak
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets.*
+*.pem
+*.key

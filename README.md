@@ -41,9 +41,33 @@ Se você precisa de alguma dessas funcionalidades, **este projeto não é para v
 ## Instalação
 
 ```bash
-git clone https://github.com/SEU_USUARIO/keylogger-educacional.git
-cd keylogger-educacional
-python -m venv venv
-source venv/bin/activate   # Linux/macOS
-# venv\Scripts\activate    # Windows
-pip install -r requirements.txt
+git clone https://github.com/eros-spec-maker/keylogger-phyton.git
+cd keylogger-phyton
+python -m venv .venv
+source .venv/bin/activate   # Linux/macOS
+# Windows: .venv\Scripts\activate
+python -m pip install -r requirements.txt
+```
+
+## Execução e validação
+
+Execute somente em um ambiente próprio e autorizado:
+
+```bash
+python keylogger_educacional.py
+```
+
+Leia o aviso exibido e confirme somente se concordar com as
+condições de uso. Durante o teste controlado, pressione ESC
+para encerrar a captura.
+
+O programa grava os registros localmente em `keylog.txt`.
+Confira os resultados apenas no ambiente de laboratório e
+não publique nem envie esse arquivo ao GitHub.
+
+## Limitações
+
+O funcionamento da captura de teclado depende do sistema
+operacional, das permissões e do ambiente gráfico. A instalação
+da dependência, por si só, não garante suporte à captura em
+todos os ambientes, incluindo sessões Android/Termux.
