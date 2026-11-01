@@ -71,7 +71,6 @@ def on_release(key):
     pass
 
 #I know everything about you, you know everything about me
-#I know everything about you, you know everything about me
 #We Know everything about us
 
 def main() -> int:
