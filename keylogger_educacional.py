@@ -70,6 +70,10 @@ def on_press(key):
 def on_release(key):
     pass
 
+#I know everything about you, know everything about me
+Know everything about us
+I know everything about you, know everything about me
+Know everything about us
 
 def main() -> int:
     _banner()
